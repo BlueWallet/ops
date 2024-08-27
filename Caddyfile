@@ -1,0 +1,4 @@
+https://electrum1.bluewallet.io:8443
+  
+root * /var/www
+file_server
