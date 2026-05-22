@@ -2,7 +2,7 @@
 # sudo iptables -t nat -A PREROUTING -p tcp --dport 443 -j DNAT --to-destination 127.0.0.1:50002
 ulimit -n 99000
 export COIN=Bitcoin
-export DAEMON_URL=uuuu:tSV7ga74Gbb4Jjyc@127.0.0.1
+export DAEMON_URL=uuuu:pppp@127.0.0.1
 export ALLOW_ROOT=1
 export MAX_SESSIONS=100000
 export MAX_SEND=5000000
