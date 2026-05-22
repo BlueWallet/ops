@@ -9,8 +9,8 @@ export MAX_SEND=5000000
 export COST_SOFT_LIMIT=1000000000
 export COST_HARD_LIMIT=2000000000
 export REQUEST_SLEEP=1000
-export SSL_CERTFILE=/root/.local/share/caddy/certificates/acme-v02.api.letsencrypt.org-directory/electrum.layerzwallet.com/electrum.layerzwallet.com.crt
-export SSL_KEYFILE=/root/.local/share/caddy/certificates/acme-v02.api.letsencrypt.org-directory/electrum.layerzwallet.com/electrum.layerzwallet.com.key
+export SSL_CERTFILE=/root/.local/share/caddy/certificates/acme-v02.api.letsencrypt.org-directory/_domain_/_domain_.crt
+export SSL_KEYFILE=/root/.local/share/caddy/certificates/acme-v02.api.letsencrypt.org-directory/_domain_/_domain_.key
 export DB_DIRECTORY=/mnt/volume_fra1_02/electrum_datadir/
 export SERVICES="tcp://:50001,SSL://:443,wss://:50004"
 
